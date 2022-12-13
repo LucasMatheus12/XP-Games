@@ -12,3 +12,19 @@
     display: flex;
     gap: 40px;
 }
+
+.banner{
+    position: absolute;
+    max-width: 100%;
+    z-index: -10;
+}
+
+.sombra-banner{
+    max-width: 100%;
+    background: linear-gradient(180.12deg, #101010 12.1%, rgba(16, 16, 16, 0.8) 36.4%, rgba(16, 16, 16, 0.5) 60.37%, rgba(16, 16, 16, 0.1) 83%, rgba(16, 16, 16, 0) 99.89%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    height: 1068px;
+    left: 0px;
+    top: 890px;
+
+}
