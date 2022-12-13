@@ -1,0 +1,14 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px; 
+    background: #141414;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+}
