@@ -10,6 +10,8 @@
     font-size: 20px;
 
     box-shadow: 0px 4px 20px #6025C0;
+
+    
 }
 
 .navigation{
@@ -19,10 +21,15 @@
 
 /* HOME */
 
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    
+}
+
 .text-home{
     margin-top: 5px;
-    padding: 100px 100px;
-    
 }
 
 #line-1{
@@ -32,3 +39,30 @@
     color: #fff;
 }
 
+#line-2{
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    background: linear-gradient(180deg, #E98171 0%, #EA9571 48.44%, #E5AC73 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#line-3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+.imagem-home img{
+    width: 691.76px;
+    height: 466.57px;
+    left: 667.6px;
+    top: 201.32px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px #6025C0;
+}
