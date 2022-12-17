@@ -1,3 +1,37 @@
+/* EFEITO DE CICURLO */
+
+.circle1{
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    left: 280px;
+    top: 2500px;
+    
+    background: linear-gradient(180deg, rgba(85, 23, 227, 0.8) 43.75%, rgba(223, 139, 113, 0.8) 100%);
+    filter: blur(75px);
+}
+
+.circle2{
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    left: 840px;
+    top: 2500px;
+    
+    background: linear-gradient(180deg, rgba(85, 23, 227, 0.8) 43.75%, rgba(223, 139, 113, 0.8) 100%);
+    filter: blur(75px);
+}
+
+.circle3{
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    left: 1415px;
+    top: 2500px;
+    
+    background: linear-gradient(180deg, rgba(85, 23, 227, 0.8) 43.75%, rgba(223, 139, 113, 0.8) 100%);
+    filter: blur(75px);
+}
 /* CABEÇALHO */
 
 .cabecalho {
@@ -189,18 +223,43 @@
     border-radius: 15px;
 }
 
+.container1-eventos img {
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 100%;
+    height: 358px;
+}
+
+.container2-eventos img {
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 100%;
+    height: 358px;
+}
+
+.container3-eventos img {
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 100%;
+    height: 358px;
+}
 
 /* SECTION INSCREVA-SE */
 
 
 .inscreva-se {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 200px;
-    padding: 30px 100px;
+    padding: 30px 300px;
 }
 
 .container-inscreva-se {
-    max-width: 100%;
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
 
     background: linear-gradient(248.4deg, rgba(255, 255, 255, 0.02) 0.76%, rgba(255, 255, 255, 0.04) 95.51%);
     border: 0.4px solid rgba(255, 255, 255, 0.5);
@@ -209,9 +268,10 @@
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 15px;
+    align-items: center;
 }
 
-.container-titulo{
+.container-titulo {
     display: flex;
     justify-content: center;
     background: linear-gradient(180deg, #E98171 0%, #EA9571 48.44%, #E5AC73 100%);
@@ -226,30 +286,76 @@
 
 }
 
-.form-container{
-display: flex;
-justify-content: space-around;
+.form-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    font-size: 18px;
 }
-.col-1{
+
+
+.col-1 {
     display: flex;
     flex-direction: column;
+    color: #FFFFFF;
     gap: 30px;
 }
 
-.col-1 div{
+.col-1 div {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 8px;
+}
+
+.col-1 div input {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.88);
+    border-radius: 5px;
+    padding: 10px 120px 10px 10px;
+    color: #fff;
+
+}
+
+.col-1 div select {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.88);
+    border-radius: 5px;
+    padding: 10px 120px 10px 10px;
+    color: #fff;
+
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #FFFFFF;
+    gap: 30px;
+}
+
+.col-2 div {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.col-2{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.col-2 div input {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.88);
+    border-radius: 5px;
+    padding: 10px 120px 10px 10px;
+    color: #fff;
+
 }
 
-.col-2 div{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.button-registrar {
+    padding: 15px 40px;
+    margin-top: 80px;
+    width: 400px;
+    background: linear-gradient(180deg, #6A2FAB 0%, #6220CF 46.88%, #5517E3 100%);
+    border-radius: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    border: none;
 }
