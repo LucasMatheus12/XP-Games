@@ -414,3 +414,171 @@ option {
     justify-content: center;
     gap: 50px;
 }
+
+
+
+
+
+
+/* RESPONSIVDADE */
+
+@media screen and (max-width: 1600px){
+    .imagem-home img {
+        width: 620px;
+        height: 470px;
+    }
+
+    .imagem-sobre img {
+        
+        width: 600px;
+        height: 400px;
+    }
+
+    .text-sobre {
+        font-size: 24px;
+    }
+
+    .circle1 {
+        left: 220px;
+        top: 2320px;
+    }
+    
+    .circle2 {
+        left: 660px;
+        top: 2320px;
+    }
+    
+    .circle3 {
+        left: 1100px;
+        top: 2320px;
+    }
+
+    .inscreva-se {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        padding: 30px 150px;
+    }
+}
+
+
+@media screen and (max-width: 1400px){
+
+    /* SECTION HOME */
+
+    #line-1 {
+        font-size: 40px;
+    }
+    
+    #line-2 {
+         font-size: 40px;
+    }
+    
+    #line-3 {
+        font-size: 20px;
+    }
+
+
+    .imagem-home img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .button-home {
+        padding: 10px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .imagem-sobre img {
+        
+        width: 450px;
+        height: 300px;
+    }
+
+    .text-sobre {
+        font-size: 20px;
+    }
+
+    .circle1 {
+        left: 180px;
+        top: 2150px;
+    }
+    
+    .circle2 {
+        left: 560px;
+        top: 2150px;
+    }
+    
+    .circle3 {
+        left: 940px;
+        top: 2150px;
+    }
+    
+    
+
+    .inscreva-se {
+        padding: 30px 100px;
+    }
+    
+  
+}
+
+
+@media screen and (max-width: 1200px){
+
+    /* SECTION HOME */
+
+    #line-1 {
+        font-size: 40px;
+    }
+    
+    #line-2 {
+         font-size: 40px;
+    }
+    
+    #line-3 {
+        font-size: 20px;
+    }
+
+
+    .imagem-home img {
+       display: none;
+    }
+
+    .button-home {
+        padding: 10px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .imagem-sobre img {
+        
+        width: 400px;
+        height: 280px;
+    }
+
+    .text-sobre {
+        font-size: 18px;
+    }
+
+    .circle1 {
+        left: 140px;
+        top: 2150px;
+    }
+    
+    .circle2 {
+        left: 500px;
+        top: 2150px;
+    }
+    
+    .circle3 {
+        left: 810px;
+        top: 2150px;
+    }
+
+    .inscreva-se {
+        padding: 30px;
+    }
+    
+  
+}
