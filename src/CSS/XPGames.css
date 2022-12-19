@@ -422,14 +422,14 @@ option {
 
 /* RESPONSIVDADE */
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1600px) {
     .imagem-home img {
         width: 620px;
         height: 470px;
     }
 
     .imagem-sobre img {
-        
+
         width: 600px;
         height: 400px;
     }
@@ -442,12 +442,12 @@ option {
         left: 220px;
         top: 2320px;
     }
-    
+
     .circle2 {
         left: 660px;
         top: 2320px;
     }
-    
+
     .circle3 {
         left: 1100px;
         top: 2320px;
@@ -463,18 +463,18 @@ option {
 }
 
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
 
     /* SECTION HOME */
 
     #line-1 {
         font-size: 40px;
     }
-    
+
     #line-2 {
-         font-size: 40px;
+        font-size: 40px;
     }
-    
+
     #line-3 {
         font-size: 20px;
     }
@@ -491,7 +491,6 @@ option {
 
     /* SECTION SOBRE */
     .imagem-sobre img {
-        
         width: 450px;
         height: 300px;
     }
@@ -504,46 +503,47 @@ option {
         left: 180px;
         top: 2150px;
     }
-    
+
     .circle2 {
         left: 560px;
         top: 2150px;
     }
-    
+
     .circle3 {
         left: 940px;
         top: 2150px;
     }
-    
-    
+
+
 
     .inscreva-se {
         padding: 30px 100px;
     }
-    
-  
+
+
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
     /* SECTION HOME */
 
     #line-1 {
-        font-size: 40px;
+        font-size: 32px;
     }
-    
+
     #line-2 {
-         font-size: 40px;
+        font-size: 32px;
     }
-    
+
     #line-3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
 
     .imagem-home img {
-       display: none;
+        width: 450px;
+        height: 350px;
     }
 
     .button-home {
@@ -552,7 +552,6 @@ option {
 
     /* SECTION SOBRE */
     .imagem-sobre img {
-        
         width: 400px;
         height: 280px;
     }
@@ -563,22 +562,256 @@ option {
 
     .circle1 {
         left: 140px;
-        top: 2150px;
+        top: 2100px;
     }
-    
+
     .circle2 {
         left: 500px;
-        top: 2150px;
+        top: 2100px;
     }
-    
+
     .circle3 {
         left: 810px;
-        top: 2150px;
+        top: 2100px;
     }
 
     .inscreva-se {
         padding: 30px;
     }
-    
-  
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    /* SECTION HOME */
+
+    #line-1 {
+        font-size: 32px;
+    }
+
+    #line-2 {
+        font-size: 32px;
+    }
+
+    #line-3 {
+        font-size: 16px;
+    }
+
+
+    .imagem-home img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .button-home {
+        padding: 10px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .imagem-sobre img {
+        width: 320px;
+        height: 200px;
+    }
+
+    .text-sobre {
+        font-size: 16px;
+    }
+
+    /* SECTION EVENTOS */
+
+    .imagens-eventos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    .circle1 {
+        left: 160px;
+        top: 2000px;
+    }
+
+    .circle2 {
+        left: 620px;
+        top: 2000px;
+    }
+
+    .circle3 {
+        left: 400px;
+        top: 2400px;
+    }
+
+    .inscreva-se {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+
+    /* SECTION HOME */
+   .home{
+    display: flex;
+    justify-content: center;
+   }
+    #line-1 {
+        font-size: 32px;
+    }
+
+    #line-2 {
+        margin: 0px;
+        font-size: 32px;
+    }
+
+    #line-3 {
+        font-size: 16px;
+    }
+
+
+    .imagem-home img {
+        display: none;
+    }
+
+    .button-home {
+        padding: 10px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .container-sobre{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem-sobre img {
+        display: none;
+    }
+
+    .text-sobre {
+        font-size: 18px;
+    }
+
+    /* SECTION EVENTOS */
+    .text-evento{
+        font-size: 18px;
+    }
+    .imagens-eventos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    .circle1 {
+        left: 160px;
+        top: 1920px;
+    }
+
+    .circle2 {
+        left: 565px;
+        top: 1920px;;
+    }
+
+    .circle3 {
+        left: 360px;
+        top: 2370px;
+    }
+
+    /* SECTION INSCREVA-SE */
+
+    .inscreva-se {
+        padding: 200px;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-inscreva-se{
+        height: 1000px;
+    }
+
+    .button-registrar{
+        width: 370px;
+        padding: 15px 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* SECTION HOME */
+   .home{
+    display: flex;
+    justify-content: center;
+   }
+    #line-1 {
+        font-size: 32px;
+    }
+
+    #line-2 {
+        margin: 0px;
+        font-size: 32px;
+    }
+
+    #line-3 {
+        font-size: 16px;
+    }
+
+
+    .imagem-home img {
+        display: none;
+    }
+
+    .button-home {
+        padding: 10px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .container-sobre{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem-sobre img {
+        display: none;
+    }
+
+    .text-sobre {
+        font-size: 18px;
+    }
+
+    /* SECTION EVENTOS */
+
+    .circle1 {
+        left: 285px;
+        top: 1920px;
+    }
+
+    .circle2 {
+        left: 285px;
+        top: 2300px;
+    }
+
+    .circle3 {
+        left: 285px;
+        top: 2720px;
+    }
+
+    /* SECTION INSCREVA-SE */
+
+    .inscreva-se {
+        padding: 100px;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-inscreva-se{
+        height: 1000px;
+    }
+
+    .button-registrar{
+        width: 370px;
+        padding: 15px 40px;
+    }
 }
