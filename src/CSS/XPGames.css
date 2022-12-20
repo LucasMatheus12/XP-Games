@@ -112,7 +112,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cabecalho a:hover {
-    color: #6025C0;
+    background: linear-gradient(180deg, #E98171 0%, #EA9571 48.44%, #E5AC73 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* HOME */
@@ -886,5 +889,99 @@ option {
     .button-registrar{
         width: 370px;
         padding: 15px 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .titulos{
+        font-size: 32px;
+    }
+   
+    /* SECTION HOME */
+   .home{
+    display: flex;
+    justify-content: center;
+   }
+    #line-1 {
+        font-size: 20px;
+    }
+
+    #line-2 {
+        margin: 0px;
+        font-size: 28px;
+    }
+
+    #line-3 {
+        font-size: 12px;
+    }
+
+
+    .imagem-home img {
+        display: none;
+    }
+
+    .button-home {
+        padding: 5px 30px;
+    }
+
+    /* SECTION SOBRE */
+    .container-sobre{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .text-sobre {
+        font-size: 18px;
+    }
+
+    /* SECTION EVENTOS */
+
+    .circle1 {
+        /* left: 270px;
+        top: 1920px; */
+        display: none;
+    }
+
+    .circle2 {
+        /* left: 270px;
+        top: 2300px; */
+        display: none;
+    }
+
+    .circle3 {
+        /* left: 270px;
+        top: 2720px; */
+        display: none;
+    }
+
+    /* SECTION INSCREVA-SE */
+
+    .inscreva-se {
+        padding: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-inscreva-se{
+        height: 1000px;
+    }
+
+    .button-registrar{
+        width: 370px;
+        padding: 15px 40px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 0px 10px;
     }
 }
