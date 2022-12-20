@@ -4,6 +4,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+.menu-responsive{
+    display: none;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.tracos-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.line{
+    display: flex;
+    background: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    border-radius: 50px;
+}
+
 /* EFEITO DE CICURLO */
 
 .circle1 {
