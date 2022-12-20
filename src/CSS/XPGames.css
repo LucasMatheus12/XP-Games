@@ -450,7 +450,9 @@ option {
     background: #6025C0;
 }
 
-
+.rodape p{
+    margin: 0;
+}
 
 
 
