@@ -24,10 +24,16 @@
 .line{
     display: flex;
     background: #FFFFFF;
-    width: 20px;
-    height: 2px;
+    width: 28px;
+    height: 3px;
     border-radius: 50px;
+    transition: all 0.3s;
 }
+
+.line:nth-child(1), .line:nth-child(3){
+    background: #6220CF;
+}
+
 
 /* EFEITO DE CICURLO */
 
@@ -759,7 +765,49 @@ option {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
+    .cabecalho{
+        padding: 30px 20px;
+    }
+    .menu-responsive{
+        display: block;
+    }
+    .menu-responsive.ativo .line:nth-child(1){
+        transform:  translateY(8px) rotate(45deg);
+    }
+    
+    .menu-responsive.ativo .line:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-responsive.ativo .line:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navigation{
+        position: fixed;
+        right: -100%;
+        top: 90px;
+        width: 55%;
+        height: 100%;
+        flex-direction: column;
+        background: linear-gradient(180deg, #6A2FAB 0%, #6220CF 46.88%, #5517E3 100%);
+        gap: -10px;
+        transition: 0.5s all ease-in-out;
+        transform: translateX(0);
+        z-index: 5;
+        padding: 30px;
+        align-items: center;
+    }
+    .navigation.ativo{
+        right: 0;;
+    }
+
+    .cabecalho a:hover {
+        background: linear-gradient(180deg, #E98171 0%, #EA9571 48.44%, #E5AC73 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
 
     /* SECTION HOME */
    .home{
@@ -805,17 +853,17 @@ option {
     /* SECTION EVENTOS */
 
     .circle1 {
-        left: 285px;
+        left: 270px;
         top: 1920px;
     }
 
     .circle2 {
-        left: 285px;
+        left: 270px;
         top: 2300px;
     }
 
     .circle3 {
-        left: 285px;
+        left: 270px;
         top: 2720px;
     }
 
