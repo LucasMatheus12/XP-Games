@@ -906,6 +906,7 @@ option {
    .home{
     display: flex;
     justify-content: center;
+    padding: 10px;
    }
     #line-1 {
         font-size: 20px;
@@ -926,16 +927,14 @@ option {
     }
 
     .button-home {
-        padding: 5px 30px;
+        padding: 2px 20px;
     }
 
     /* SECTION SOBRE */
-    .container-sobre{
-        display: flex;
-        justify-content: center;
-    }
-
     
+    .sobre{
+        padding: 10px;
+    }
     .text-sobre {
         font-size: 18px;
     }
@@ -960,6 +959,9 @@ option {
         display: none;
     }
 
+    .evento{
+        padding: 10px;
+    }
     /* SECTION INSCREVA-SE */
 
     .inscreva-se {
@@ -979,12 +981,17 @@ option {
     }
 
     .button-registrar{
-        width: 370px;
+        width: 250px;
         padding: 15px 40px;
     }
 
     .form-container {
-        width: 100%;
+        width: 80%;
         padding: 0px 10px;
+    }
+
+    .rodape{
+        gap: 10px;
+        font-size: 12px;
     }
 }
